@@ -25,7 +25,6 @@ namespace BasicITSchool_Stage_4.Controllers
             return BadRequest();
         }
 
-
         [HttpPost("PostExample")]
         public IActionResult Post(RequestPlayerModel model)
         {
@@ -38,7 +37,7 @@ namespace BasicITSchool_Stage_4.Controllers
            
         }
 
-        [HttpDelete("PostExample")]
+        [HttpDelete("DeleteExample")]
         public IActionResult Delete(RequestPlayerModel model)
         {
 
@@ -50,7 +49,7 @@ namespace BasicITSchool_Stage_4.Controllers
 
         }
 
-        [HttpPut("PostExample")]
+        [HttpPut("PutExample")]
         public IActionResult Put(RequestPlayerModel model)
         {
 
